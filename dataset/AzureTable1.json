@@ -9,7 +9,7 @@
 		"type": "AzureTable",
 		"schema": [],
 		"typeProperties": {
-			"tableName": "NewTable"
+			"tableName": "test1234"
 		}
 	}
 }
