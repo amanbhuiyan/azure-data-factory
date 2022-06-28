@@ -105,72 +105,10 @@
 									},
 									{
 										"source": {
-											"path": "$['results'][0]['mass']"
-										},
-										"sink": {}
-									},
-									{
-										"source": {
-											"path": "$['results'][0]['hair_color']"
-										},
-										"sink": {}
-									},
-									{
-										"source": {
-											"path": "$['results'][0]['skin_color']"
-										},
-										"sink": {}
-									},
-									{
-										"source": {
-											"path": "$['results'][0]['eye_color']"
-										},
-										"sink": {}
-									},
-									{
-										"source": {
-											"path": "$['results'][0]['birth_year']"
-										},
-										"sink": {}
-									},
-									{
-										"source": {
-											"path": "$['results'][0]['gender']"
-										},
-										"sink": {}
-									},
-									{
-										"source": {
-											"path": "$['results'][0]['homeworld']"
-										},
-										"sink": {}
-									},
-									{
-										"source": {
-											"path": "$['results'][0]['films'][0]"
-										},
-										"sink": {}
-									},
-									{
-										"source": {
-											"path": "$['results'][0]['species'][0]"
-										},
-										"sink": {}
-									},
-									{
-										"source": {
 											"path": "$['results'][0]['vehicles'][0]"
 										},
 										"sink": {
 											"name": "vehicle"
-										}
-									},
-									{
-										"source": {
-											"path": "$['results'][0]['starships'][0]"
-										},
-										"sink": {
-											"name": ""
 										}
 									},
 									{
