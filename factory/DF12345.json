@@ -1,0 +1,9 @@
+{
+	"name": "DF12345",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c906c3cd-e2ed-4dec-b1df-599d89109914",
+		"tenantId": "2a5a14fa-3187-447c-be5b-c1de7cce091e"
+	}
+}
