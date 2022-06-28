@@ -29,7 +29,119 @@
 						"azureTableInsertType": "merge",
 						"writeBatchSize": 10000
 					},
-					"enableStaging": false
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"path": "$['count']"
+								},
+								"sink": {
+									"name": "count"
+								}
+							},
+							{
+								"source": {
+									"path": "$['next']"
+								},
+								"sink": {
+									"name": "next"
+								}
+							},
+							{
+								"source": {
+									"path": "$['previous']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['results'][0]['name']"
+								},
+								"sink": {
+									"name": "name"
+								}
+							},
+							{
+								"source": {
+									"path": "$['results'][0]['height']"
+								},
+								"sink": {
+									"name": "height"
+								}
+							},
+							{
+								"source": {
+									"path": "$['results'][0]['mass']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['results'][0]['hair_color']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['results'][0]['skin_color']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['results'][0]['eye_color']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['results'][0]['birth_year']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['results'][0]['gender']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['results'][0]['homeworld']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['results'][0]['films'][0]"
+								}
+							},
+							{
+								"source": {
+									"path": "$['results'][0]['species'][0]"
+								}
+							},
+							{
+								"source": {
+									"path": "$['results'][0]['vehicles'][0]"
+								}
+							},
+							{
+								"source": {
+									"path": "$['results'][0]['starships'][0]"
+								}
+							},
+							{
+								"source": {
+									"path": "$['results'][0]['created']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['results'][0]['edited']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['results'][0]['url']"
+								}
+							}
+						]
+					}
 				},
 				"inputs": [
 					{
