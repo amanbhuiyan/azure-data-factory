@@ -35,27 +35,6 @@
 						"mappings": [
 							{
 								"source": {
-									"path": "$['count']"
-								},
-								"sink": {
-									"name": "count"
-								}
-							},
-							{
-								"source": {
-									"path": "$['next']"
-								},
-								"sink": {
-									"name": "next"
-								}
-							},
-							{
-								"source": {
-									"path": "$['previous']"
-								}
-							},
-							{
-								"source": {
 									"path": "$['results'][0]['name']"
 								},
 								"sink": {
