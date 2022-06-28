@@ -253,31 +253,41 @@
 										"source": {
 											"path": "$['results'][0]['vehicles'][0]"
 										},
-										"sink": {}
+										"sink": {
+											"name": "vehicle"
+										}
 									},
 									{
 										"source": {
 											"path": "$['results'][0]['starships'][0]"
 										},
-										"sink": {}
+										"sink": {
+											"name": ""
+										}
 									},
 									{
 										"source": {
 											"path": "$['results'][0]['created']"
 										},
-										"sink": {}
+										"sink": {
+											"name": "created"
+										}
 									},
 									{
 										"source": {
 											"path": "$['results'][0]['edited']"
 										},
-										"sink": {}
+										"sink": {
+											"name": "edited"
+										}
 									},
 									{
 										"source": {
 											"path": "$['results'][0]['url']"
 										},
-										"sink": {}
+										"sink": {
+											"name": "url"
+										}
 									}
 								]
 							}
